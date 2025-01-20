@@ -45,3 +45,8 @@ python replay.py
 You can click on "Open in new tab" to snapshot the current page and open it in a new tab to be inspected more easily. This will save the current html of the iframe in the `snapshots` directory. Note that this will not preserve the values of the inputs. Do not click on link or buttons in the new tab as they will send real requests.
 
 Note that using the playback slider might be buggy. Refresh the page to reset the playback.
+
+## Compiling Recorder for Windows
+```bash
+pyinstaller record.spec
+```
