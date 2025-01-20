@@ -1,8 +1,9 @@
 from flask import Flask, request, send_from_directory
+from flask_cors import CORS
 import os
 
 app = Flask(__name__)
-
+CORS(app)
 # Serve static files from public directory
 @app.route('/')
 def root():
