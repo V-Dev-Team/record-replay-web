@@ -48,5 +48,6 @@ Note that using the playback slider might be buggy. Refresh the page to reset th
 
 ## Compiling Recorder for Windows
 ```bash
+pip install pyinstaller
 pyinstaller record.spec
 ```
